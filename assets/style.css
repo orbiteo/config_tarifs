@@ -11,6 +11,9 @@
   border-color: #0065CB;
   color: #fff; 
 }
+.btn-success {
+  text-transform: uppercase;
+}
 .slideOptions {
   margin: 20px 0;
 }

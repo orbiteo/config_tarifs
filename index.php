@@ -72,22 +72,13 @@
 				<div class="col-lg-3 valeur"><span class="var1donnee">2.9</span>h/mois</div>
 			</div>
 		</div>
-		<!-- <div class="slideOptions">
-			<div class="row">
-				<div class="col-lg-2">Volume horaire</div>
-				<div class="col-lg-1 text-center minus"><a href="#" class="symbol"> - </a></div>
-				<div class="col-lg-5"><input id="variable2" data-slider-id='ex2Slider' type="text" data-slider-min="7" data-slider-max="100" data-slider-step="1" data-slider-value="28" data-slider-handle="custom"/></div>
-				<div class="col-lg-1 text-center plus"><a href="#" class="symbol"> + </a></div>
-				<div class="col-lg-3 valeur"><span class="var2donnee">28</span>h/mois</div>
-			</div>
-		</div> -->
 		<div class="slideOptions">
 			<div class="row">
 				<div class="col-lg-2">Bugdet Pub</div>
 				<div class="col-lg-1 text-center minus"><a href="#" class="symbol"> - </a></div>
 				<div class="col-lg-5"><input id="variable3" data-slider-id='ex3Slider' type="text" data-slider-min="500" data-slider-max="10000" data-slider-step="100" data-slider-value="2000" data-slider-handle="custom"/></div>
 				<div class="col-lg-1 text-center plus"><a href="#" class="symbol"> + </a></div>
-				<div class="col-lg-3 valeur"><span class="var3donnee">1000</span>,00 €</div>
+				<div class="col-lg-3 valeur"><span class="var3donnee">1000</span>,00 €/mois</div>
 			</div>
 		</div>
 		<div class="slideOptions">
@@ -96,9 +87,13 @@
 				<div class="col-lg-1 text-center minus"><a href="#" class="symbol"> - </a></div>
 				<div class="col-lg-5"><input id="variable4" data-slider-id='ex4Slider' type="text" data-slider-min="100" data-slider-max="2000" data-slider-step="1" data-slider-value="100" data-slider-handle="custom"/></div>
 				<div class="col-lg-1 text-center plus"><a href="#" class="symbol"> + </a></div>
-				<div class="col-lg-3 valeur"><span class="var4donnee">100</span>,00 €</div>
+				<div class="col-lg-3 valeur"><span class="var4donnee">100</span>,00 €/mois</div>
 			</div>
 		</div>
+		<div class="col-lg-3 mx-auto">
+			<button class="btn btn-success" type="submit">obtenir ma synthèse</button>
+		</div>
+		
 	</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
