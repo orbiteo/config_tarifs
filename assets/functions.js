@@ -65,10 +65,10 @@
 
 	
 	function changeButtons(selector) {
-		selector.css('background-color', '#138496');
+		selector.css('background-color', '#0065CB');
 		selector.css('color', '#fff');
 		selector.siblings().css('background-color', '#fff');
-		selector.siblings().css('color', '#138496');
+		selector.siblings().css('color', '#0065CB');
 	}
 
 	function setValues(valeur1, valeur2, valeur3, valeur4) {

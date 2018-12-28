@@ -1,13 +1,50 @@
 #first, #second, #fourth {
   background-color: #fff;
-  color: #138496;
+  color: #0065CB;
 }
 .btn {
   border-radius: 50px;
 }
-.btn-info {
+.btn-orbiteo {
   margin: 20px;
+  background-color: #0065CB;
+  border-color: #0065CB;
+  color: #fff; 
+}
+.slideOptions {
+  margin: 20px 0;
+}
+.slider-handle.custom::before {
+  line-height: 20px;
+  font-size: 20px;
+  content: '||';
+  color: #D9D9D9;
+  position: absolute;
+  left: 9px;
+  top: 2px;
+}
+.slider-handle.custom {
+  width: 34px;
+  height: 28px;
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+  background: #FFF;
+  cursor: default;
+  box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
 }
 .slider.slider-horizontal {
   width: 100%;
+}
+a.symbol:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.symbol {
+  background-color: #F3B62A;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1.2em;
+  min-width: 30px;
+  display: inline-block;
 }
