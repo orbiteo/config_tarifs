@@ -42,7 +42,7 @@ class SPDO1
 	private function __construct()
 	{
 		try {
-			$this->PDOInstance = new PDO("mysql:host=localhost;dbname=xdev_preenty", UTILISATEURS, ACCESS);
+			$this->PDOInstance = new PDO("mysql:host=localhost;dbname=xdev_configurateur_tarifs", UTILISATEURS, ACCESS);
 		}
 		catch (PDOException $e) {
 			echo "Error connecting to MySQL!: " . $e->getMessage();
