@@ -15,3 +15,4 @@ if (!defined('ACCESS')) { //mdp bdd
 include_once URL.'/modeles/Database.class.php';
 include_once URL.'/modeles/Prospects.class.php';
 include_once URL.'/modeles/Details_dde.class.php';
+include_once URL.'/modeles/Pdf.class.php';
